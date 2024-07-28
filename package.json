@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-transpose-operation-resolve-str",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the transpose operation string associated with a supported BLAS transpose operation value.",
   "license": "Apache-2.0",
   "author": {
@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "@stdlib/blas-base-transpose-operation-enum2str": "^0.0.1",
-    "@stdlib/blas-base-transpose-operation-str2enum": "^0.0.1"
+    "@stdlib/blas-base-transpose-operation-str2enum": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.2.1",
+    "@stdlib/assert-is-string": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
